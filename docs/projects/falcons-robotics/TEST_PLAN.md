@@ -94,3 +94,23 @@ Do not call the prototype pilot-ready until critical workflow tests pass, role b
 - Method Intelligence: signal quality, source diversity, duplicate rate, reviewer acceptance, time from signal to decision and changes reversed after pilot.
 
 Do not infer causal learning impact from a tiny demo. Record sample size, context and limitations.
+
+
+## Additional acceptance tests — lesson architecture and navigation
+
+| ID | Area | Test | Expected result |
+|---|---|---|---|
+| T19 | Lesson completeness | Inspect each published/seeded lesson | Driving question, objectives, success criteria, prerequisites, interdisciplinary links, activity steps, check for understanding and evidence path exist. |
+| T20 | Navigation context | Open a lesson from the Learning Path | Breadcrumb, unit, lesson position, progress and next action are visible. |
+| T21 | Previous/next | Navigate lesson sequence forward and backward | Correct adjacent lessons open; saved work is not lost. |
+| T22 | Prerequisites | Open a lesson with unmet prerequisites | Explain the block and link to prerequisite review; no unexplained dead end. |
+| T23 | Interdisciplinary links | Inspect a mission lesson | Each contributing domain states concept, relevance, learner action and check for understanding. |
+| T24 | Curriculum Explorer | Search/filter by domain, competency, mission and topic | Relevant results; linked lessons, prerequisites and projects open correctly. |
+| T25 | Grade 4 sequence | Traverse Save Every Drop lessons 1–8 | All lessons are reachable in intended order and linked to the mission. |
+| T26 | Capability adaptation | Compare Foundation through Inventive task options | Support/extension differs meaningfully; age is not treated as capability. |
+| T27 | Mastery integrity | View all lesson content without required evidence | Learner is not marked mastery verified. |
+| T28 | Teacher lesson guide | Open teacher view | Materials, safety, facilitation, misconceptions, differentiation, rubric and standards mapping are available or explicitly marked not applicable. |
+| T29 | Responsive navigation | Test on mobile/tablet/desktop | Labels remain understandable; no critical overflow; keyboard navigation works. |
+| T30 | Lesson provenance | Inspect a lesson with factual claims | Source references, version and review status are visible or explicitly marked seeded/demo. |
+
+A lesson is not accepted merely because a title or content card renders. Verify links, state transitions, required fields and the full learner journey.
