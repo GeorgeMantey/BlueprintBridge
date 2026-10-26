@@ -28,3 +28,10 @@ Student learns → designs a water-saving mini garden → records measurements a
 - Keep Gemini API keys server-side and out of source control.
 - No phantom features: visible controls must work, be disabled with an explanation, or be labelled planned.
 - This specification is not proof that an application has been built, deployed, or tested.
+
+
+## Required lesson architecture
+
+The interdisciplinary lesson structure and navigation system are a binding part of the specification. See [Lesson Architecture, Interdisciplinary Curriculum & Navigation](LESSON_ARCHITECTURE.md). It defines the lesson template, student/teacher navigation, Grade 4 Save Every Drop sequence, capability differentiation, curriculum explorer, data contract and additional acceptance criteria.
+
+Do not scale the lesson library until the initial Grade 4 sequence can be navigated and tested end-to-end.
