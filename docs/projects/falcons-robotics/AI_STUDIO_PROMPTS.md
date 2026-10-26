@@ -64,3 +64,18 @@ Audit every route at mobile, tablet and desktop widths. Check keyboard navigatio
 ## Follow-up prompt 7 — QA and handover
 
 Run available build, lint, type and automated tests. Inspect all navigation links and buttons. Test student submission, teacher verification, revision cycle, Passport update, AI failure fallback and role permissions. Do not mark tests passed unless executed. Produce release checklist, defect list, setup instructions and known-limitations register.
+
+
+## Required follow-up prompt 8 — lesson structure, curriculum navigation and interdisciplinary learning
+
+Read and follow docs/projects/falcons-robotics/LESSON_ARCHITECTURE.md as a binding specification. Do not treat it as optional guidance.
+
+Implement a clear curriculum navigation system: Learning Path → Unit/Mission Theme → Real-World Challenge → Interdisciplinary Module → Lesson → Activity/Experiment/Simulation → Project Stage → Assessment → Evidence → Competency → Technology Passport. Include student and teacher navigation, breadcrumbs, lesson position/progress, previous/next lesson, prerequisite review links, clear progress states, search and filters, and responsive mobile navigation.
+
+Create a canonical lesson page with: real-world hook; driving question; why it matters; measurable learning objectives; success criteria; prerequisites; explicit interdisciplinary connections; key concepts/vocabulary; observe/explore; explain/model; guided activity; apply/build/simulate; test and collect data; analyze/improve; explain thinking; check for understanding; assessment/evidence; reflection/transfer; next step; teacher guide; sources/provenance. Every contributing domain must state its concept, mission relevance, learner action and check for understanding.
+
+Use these domains: Natural Sciences (physics, chemistry, biology, Earth/environmental science); Mathematics & Data; Computing & Digital Systems; Engineering & Design; Frontier Technologies; Human, Creative & Society; Innovation & Enterprise. Do not force coding or electronics into every lesson. Include chemistry when materials, batteries, energy conversion, corrosion or water chemistry make it relevant.
+
+Implement the Grade 4 Save Every Drop sequence as eight linked lessons: (1) Observe the system, (2) Water and materials, (3) Measure fairly, (4) Design options, (5) Build a safe model, (6) Test and record, (7) Improve the design, (8) Explain and transfer. Link lessons to competencies, notebook entries, mission stages, assessments and evidence. Provide Foundation, Developing, Proficient, Advanced and Inventive support/extension options without equating capability with age.
+
+Do not mark mastery based on opening a lesson or viewing content. Keep lesson publication status separate from learner progress status. Seed traversable lesson records and validate navigation on mobile, tablet and desktop. Add tests for missing lesson fields, broken prerequisite links, previous/next navigation, domain links, saved progress, evidence submission and mastery verification. Preserve existing working features and report actual results.
