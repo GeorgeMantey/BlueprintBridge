@@ -241,3 +241,16 @@ Do not treat AI Studio as a substitute for production security, observability, b
 A reviewer can reproduce the build, run the core manual test, see actual results, understand which features are implemented versus demo/planned, and identify the next step without relying on undocumented chat history.
 
 Do not claim a feature is complete because it appears on screen or the project compiles. Verify runtime behaviour and record evidence.
+
+
+## 14. Required lesson structure, interdisciplinary links and navigation
+
+The canonical lesson and navigation requirements are defined in [LESSON_ARCHITECTURE.md](LESSON_ARCHITECTURE.md). This is a required part of the platform specification, not an optional future enhancement.
+
+Required hierarchy: Learning Path → Unit/Mission Theme → Real-World Challenge → Interdisciplinary Module → Lesson → Activity/Experiment/Simulation → Project Stage → Assessment → Evidence → Competency → Technology Passport.
+
+Every lesson must include a driving question, real-world relevance, observable objectives, success criteria, prerequisites, interdisciplinary connections, key concepts, exploration, explanation/modeling, guided activity, application/build/simulation, testing and data, analysis/improvement, explanation, check for understanding, assessment/evidence, reflection/transfer, next step, teacher guide and source/provenance information.
+
+The interdisciplinary domains are Natural Sciences (including Chemistry), Mathematics & Data, Computing & Digital Systems, Engineering & Design, Frontier Technologies, Human/Creative/Society, and Innovation & Enterprise. For each contributing domain, explain the concept, why the mission needs it, what the learner does with it, and how it is checked.
+
+Student and teacher navigation, lesson states, capability-based differentiation, curriculum explorer filters, the Grade 4 Save Every Drop sequence, lesson data contract and acceptance criteria are mandatory. Build and test this structure before expanding the content library.
